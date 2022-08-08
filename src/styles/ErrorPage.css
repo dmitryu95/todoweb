@@ -1,0 +1,15 @@
+.MainImage {
+    display: flex;
+    background-image: url('../source/image/ErrorImage.jpg');
+    height: 50vh;
+    width: 40vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10vh;
+}
+
+.ErrorText {
+    display: flex;
+    margin-top: 5vh;
+    font-size: 25px;
+ }
