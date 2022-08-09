@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
-  }
+}
 
 .Header {
     display: flex;
@@ -68,11 +68,13 @@
 .TextItem {
     display: flex;
     flex: 20;
+	font-size: 25px;
     border-radius: 8px;
     background-color: white;
     align-items: center;
     margin: 5px 5px;
-    justify-content: flex-start;
+	padding-left: 5px;
+    justify-content: center;
     overflow: auto;
 }
 
@@ -87,15 +89,12 @@
 .TextNote {
     display: flex;
     margin-top: 1%;
-    display: flex;
     margin-left: 2%;
     border-radius: 8px;
     border-color: #4bb5e3;
     background-color: #ffffff;
-    font-size: 10px;
     width: 80%;
     color: black;
-    font-size: large;
 }
 
 .Logout {
